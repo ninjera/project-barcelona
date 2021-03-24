@@ -1,0 +1,38 @@
+[
+    {
+        
+        "id": 1,
+        "name": "Marc-André ter Stegen",
+        "nationality": "Alemania"
+    },
+    {
+        "id": 3,
+        "name": "Gerard Piqué",
+        "nationality": "España"
+    },
+    {
+        "id": 18,
+        "name": "Jordi Alba",
+        "nationality": "España"
+    },
+    {
+        "id": 5,
+        "name": "Sergio Busquets",
+        "nationality": "España"
+    },
+    {
+        "id": 11,
+        "name": "Ousmane Dembélé",
+        "nationality": "Francia"
+    },
+    {
+        "id": 17,
+        "name": "Antoine Griezmann",
+        "nationality": "Francia"
+    },
+    {
+        "id": 10,
+        "name": "Lionel Messi",
+        "nationality": "Argentina"
+    }
+]

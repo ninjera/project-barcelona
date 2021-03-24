@@ -1,0 +1,29 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title class="ion-text-center" size="small">FC Barcelona</ion-title>
+
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar (ionChange)="filterList($event)"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list class="ion-padding">
+    <ion-item *ngFor="let item of data | filtro: searchText">
+      <ion-avatar slot="start">
+        <img src="../../assets/image_{{item.id}}.jpg">
+      </ion-avatar>
+      <ion-label>
+        
+        <h2>{{ item.id}}</h2>
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.nationality }}</p>
+
+      </ion-label>
+
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
